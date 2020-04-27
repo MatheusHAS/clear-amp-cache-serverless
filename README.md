@@ -47,7 +47,7 @@ offline: Enter "rp" to replay the last request
 ## Use
 After run service, locate your endpoint, by default is: `http://localhost:3000/dev/amp/clear-cache`
 
-and send request to your endpoint with body
+and send `POST` request to your endpoint with body
 ```json
 {
   "urls": ["/path/to/your/page/amp"]
@@ -58,6 +58,7 @@ where `urls` is one array of `amp path pages`
 ## Dependencies
 | Name  | Link  |
 |---|---|
+| node | [here](https://nodejs.org/en/) |
 | axios | [here](https://www.npmjs.com/package/axios) |
 | middy | [here](https://www.npmjs.com/package/middy) |
 | serverless | [here](https://serverless.com/framework/docs/getting-started/) |
