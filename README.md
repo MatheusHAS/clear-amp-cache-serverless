@@ -1,5 +1,5 @@
 # clear-amp-cache-serverless
-Service to clear cache for all Accelerated Mobile Pages on all Content Delivery Network (CDN) servers.
+Service to clear cache for Accelerated Mobile Pages on all Content Delivery Network (CDN) servers.
 
 ## Information
 This guide helps you who already have [Accelerated Mobile Pages (AMP)](https://amp.dev/about/how-amp-works/), to update your content more quickly.
