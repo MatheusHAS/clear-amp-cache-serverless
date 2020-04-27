@@ -1,7 +1,7 @@
 {
-	"name": "amp-flush-cache",
+	"name": "clear-amp-cache-serverless",
 	"version": "0.0.1",
-	"description": "script to flush cache for amp pages (force google retrive new version of page)",
+	"description": "Service to clear cache for Accelerated Mobile Pages on all Content Delivery Network (CDN) servers",
 	"main": "src/handler.js",
 	"scripts": {
 		"start": "serverless offline --stage=dev"
