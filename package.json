@@ -1,0 +1,19 @@
+{
+	"name": "amp-flush-cache",
+	"version": "0.0.1",
+	"description": "script to flush cache for amp pages (force google retrive new version of page)",
+	"main": "src/handler.js",
+	"scripts": {
+		"start": "serverless offline --stage=dev"
+	},
+	"author": "Matheus Azambuja <matheushenrique.ads@gmail.com>",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.19.2",
+		"crypto": "^1.0.1",
+		"middy": "^0.36.0"
+	},
+	"devDependencies": {
+		"serverless-offline": "^6.1.4"
+	}
+}
