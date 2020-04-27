@@ -1,0 +1,20 @@
+service: ampclearcache
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: sa-east-1
+  stage: ${opt:stage, 'dev'}
+  environment: ${file(env.${self:provider.stage}.yml)}
+
+functions:
+  clearCache:
+    handler: src/handler.clearCache
+    timeout: 30
+    events:
+      - http:
+          path: amp/clear-cache
+          method: post
+
+plugins:
+  - serverless-offline
