@@ -4,7 +4,7 @@ Service to clear cache for Accelerated Mobile Pages on all Content Delivery Netw
 ## Information
 This guide helps you who already have [Accelerated Mobile Pages (AMP)](https://amp.dev/about/how-amp-works/), to update your content more quickly.
 
-To use google `/update-cache`, you need generate 1 RSA key pair. To generate, follow [this guide of google](https://developers.google.com/amp/cache/update-cache#rsa-keys)
+To use google `/update-cache`, you need generate 1 RSA key pair. To generate, and configure, follow [this guide of google](https://developers.google.com/amp/cache/update-cache#rsa-keys)
 
 After generate you pair, you need move file `private-key.pem` to `src/assets` folder. 
 
